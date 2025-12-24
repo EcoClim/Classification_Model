@@ -14,7 +14,7 @@ Garbage classification involves separating wastes according to how it's handled 
    - This code was used to train the classification model using a dataset found on Kaggle.  
 
 2. **Web Deployment**  
-   - File: `app.py`  
+   - File: `web_application.py`  
    - Deployed on Hugging Face Spaces.  
    - This is the main file that uses Streamlit to deploy the model created using the previous code. 
 
@@ -30,7 +30,7 @@ Garbage classification involves separating wastes according to how it's handled 
 | File | Purpose |
 |------|---------|
 | `Classification_for_EcoIdentify.ipynb` | Used for training and building model |
-| `app.py` | Deployed for public usage using web application |
+| `web_application.py` | Deployed for public usage using web application |
 | `Deployment_on_Raspi.py` | Uses GPIO pins within Raspberry Pi to control motors using output from Roboflow's API |
 | `README.md` | Contains project overview |
 | `LICENSE` | Usage rights and permissions as highlighted by MIT License |
